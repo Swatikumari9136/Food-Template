@@ -1,0 +1,233 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+body{
+          height: 100%;
+          width: 100%;
+}
+.main{
+          height: 100%;
+          width: 100%;
+          background-color: rgb(212, 169, 89);
+}
+.main #top{
+          height: 68vh;
+          width: 100%;
+          display: flex;
+}
+#top #left{
+          height: 100%;
+          width: 50%;
+          /* background-color: rgb(134, 102, 43); */
+}
+#left #box{
+          position: relative;
+          left: 20%;
+          height: 95%;
+          width: 50%;
+          align-items: center;
+          background-color: rgb(44, 42, 42);
+}
+#box #img{
+          position: relative;
+          left: -36%;
+          top: 6%;
+          height: 462px;
+          width: 577px;
+}
+#box h1{
+          position: relative;
+          top: -105%;
+          left: 30%;
+          color: whitesmoke;
+                    /* border: 2px solid red; */
+
+}
+.main #middel{
+          position: relative;
+          left: -18%;
+          top: -38%;
+          height: 50px;
+          width: 330px;
+          display: flex;
+          font-size: 1.4rem;
+          transform: rotate(-90deg);
+          justify-content: space-between;
+}
+#middel a{
+          text-decoration: none;
+          color: rgb(24, 24, 24);
+}
+#top #right{
+          height: 100%;
+          width: 50%;
+          /* background-color: rgb(39, 69, 130); */
+}
+#right nav{
+          height: 5rem;
+          width: 100%;
+          padding-right: 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+#right nav ul{
+          height: 5rem;
+          width: 27rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+nav ul li{
+          position: relative;  
+          padding: 0.4rem;
+          font-size: 1.2rem;
+          font-weight: 800;
+          list-style-type: none;       
+}
+nav ul li a{
+          color: black;
+          text-decoration: none;        
+}
+ul li a.active{
+          color: rgb(158, 64, 64) !important;
+}
+#right nav #icon{
+          height: 5rem;
+          width: 5rem;
+          padding: 5.5px;
+          font-size: 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+#right nav #icon a,#i{
+          color: rgb(204, 48, 48);
+          text-decoration: none;
+}
+nav #icon a #i{
+          border-radius: 50%;
+          transition: 1.2s ease-in-out;
+          border: 2px solid rgb(71, 68, 68);
+}
+nav #icon a i:hover{
+          color: wheat;
+          border-radius: 50%;
+          background-color:  rgb(122, 43, 43);
+          border: 2px solid rgb(122, 43, 43);
+          transform: translateY(-10px);
+}
+#right #body{
+          position: relative;
+          top: 13.2%;
+          height: 15rem;
+          width: 26rem;
+          /* background-color:  rgb(122, 43, 43); */
+}
+#right #body h1{
+          position: relative;
+          font-size: 3rem;
+          font-weight: 900;
+          letter-spacing: 3px;
+          margin-bottom: .4rem;
+}
+#right #body #p{
+          color: rgb(25, 26, 25);
+          top: 0rem;
+          position: relative;
+          font-size: 1.1rem;
+          margin-bottom: 1rem;
+}
+#right #body h2{
+          position: relative;
+          color: red;
+          font-size: 1.8rem;
+}
+#right #body button{
+          position: relative;
+          left: 12rem;
+          top: -3.9rem;
+          font-size: 1.2rem;
+          height: 2.5rem;
+          width: 9.5rem;
+          border-radius: 30px;
+          background-color:  rgb(229, 13, 13);
+}
+#right #body button:hover{
+          color: white;
+          background-color: rgb(155, 142, 142);
+          border: none;
+}
+.main #bottum{
+          height: 32vh;
+          width: 100%;
+
+}
+.main #bottum #box1{
+          position: relative;
+          left: 8.3rem;
+          height: 13rem;
+          width: 68rem;
+          display: flex;
+          justify-content: space-between;
+}
+#bottum #box1 .card {
+          float: left;
+          width: calc(25% - 20px);
+          padding: 10px;
+          border-radius: 10px;
+          margin: 10px;
+          width: 12rem;
+          height: 12rem;
+          background-color: rgb(44, 42, 42);
+
+}
+.card #cord-d{
+          position: relative;
+          top: -2.1rem;
+          left: -2.2rem; 
+          height: 110px;
+          width: 110px;
+}
+.card #cord-d .img{
+          position: relative;
+          object-fit: contain;
+          object-position: center;
+}
+.card  h2{
+     position: relative;
+     left: 7rem;
+     top: -5rem;
+     color: wheat;
+}
+.card h3,p{
+     color: white;
+     position: relative;
+     top: -3rem;
+     
+}
+.card #but{
+     position: relative;
+     top: -2rem;
+     height: 2rem;
+     width: 10rem;
+     display: flex;
+     color: white;
+     justify-content: space-between;
+}
+.card #but a,i{
+     color: white;
+     text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+     .card {
+          width: 100%;
+      }
+}
+
+
+
+
+
